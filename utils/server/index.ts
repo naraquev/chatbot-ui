@@ -13,7 +13,7 @@ export const OpenAIStream = async (model: OpenAIModel, systemPrompt: string, key
       messages: [
         {
           role: "system",
-          content: systemPrompt
+          content: "Te llamas ChatGPY"
         },
         ...messages
       ],
